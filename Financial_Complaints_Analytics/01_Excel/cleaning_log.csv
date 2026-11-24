@@ -1,0 +1,8 @@
+Cleaning activity,Records affected,Action taken
+Duplicate complaint IDs,30,Removed duplicate rows; kept first occurrence by complaint_id.
+Missing/invalid received dates,20,Retained record; date flagged and excluded from date-based trend/response calculations.
+Missing/invalid state,170,Standardized blank/invalid state to Unknown; no location inferred.
+Noncanonical product values corrected,260,Trimmed spaces and normalized capitalization to canonical product categories.
+Invalid response dates cleared,24,"Cleared response date if invalid, missing received date, or earlier than received date."
+Open complaints,623,Kept open; response date and timely flag excluded from response KPIs.
+Closed complaints without valid response date,36,Flagged; excluded from response-time and timely-response denominators.
